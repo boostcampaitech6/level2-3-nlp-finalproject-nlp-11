@@ -26,14 +26,14 @@ pip install streamlit_player
 
 # Download Pre-Trained Models
 
-1. STT (whisper)
+## 1. STT (whisper)
 <pre><code>
 pip3 install git+https://github.com/openai/whisper.git
 pip3 install --upgrade --no-deps --force-reinstall git+https://github.com/openai/whisper.git
     
 </code></pre>
 
-2. Text Summarization (Solar)
+## 2. Text Summarization (Solar)
 <pre><code>
 tokenizer = AutoTokenizer.from_pretrained("Upstage/SOLAR-10.7B-Instruct-v1.0")
 model = AutoModelForCausalLM.from_pretrained(
