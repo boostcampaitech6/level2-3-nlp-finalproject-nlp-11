@@ -16,12 +16,16 @@
 
 # Installation
 <pre><code>
-  pip install pytube
-  pip3 install git+https://github.com/openai/whisper.git
-  pip3 install --upgrade --no-deps --force-reinstall git+https://github.com/openai/whisper.git
-  sudo apt update && sudo apt install ffmpeg
+pip install pytube
+pip3 install git+https://github.com/openai/whisper.git
+pip3 install --upgrade --no-deps --force-reinstall git+https://github.com/openai/whisper.git
+sudo apt update && sudo apt install ffmpeg
+pip install transformers
+pip install streamlit
+pip install streamlit_player
 </code></pre>
-# Usage
+
+# How to Use
 
 # Demo
 
