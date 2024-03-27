@@ -49,3 +49,4 @@ model = AutoModelForCausalLM.from_pretrained(
 # Demo
 
 # Project Review
+https://boostcampait.notion.site/NLP-11-Forgotten-Items-169ab27b5e544b8293e01b0cbafb7a12
