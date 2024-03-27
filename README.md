@@ -46,6 +46,8 @@ model = AutoModelForCausalLM.from_pretrained(
 </code></pre>
 
 # How to Use
+pip install -r requirements.txt
+streamlit run ytsummarize.py
 
 # Demo
 
