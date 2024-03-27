@@ -25,6 +25,21 @@ pip install streamlit
 pip install streamlit_player
 </code></pre>
 
+# Download Pre-Trained Models
+<pre><code>
+pip3 install git+https://github.com/openai/whisper.git
+pip3 install --upgrade --no-deps --force-reinstall git+https://github.com/openai/whisper.git
+</code></pre>
+
+<pre><code>
+tokenizer = AutoTokenizer.from_pretrained("Upstage/SOLAR-10.7B-Instruct-v1.0")
+model = AutoModelForCausalLM.from_pretrained(
+    "Upstage/SOLAR-10.7B-Instruct-v1.0",
+    device_map="auto",
+    torch_dtype=torch.float16,
+)
+</code></pre>
+
 # How to Use
 
 # Demo
